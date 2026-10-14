@@ -33,14 +33,23 @@ PyMuPDF 1.25.5 的 SWIG 模块产生 5 条 `DeprecationWarning`，没有测试�
 2. 品牌/车型联动及不完整关键词已通过实际 DOM 操作检查；CS75 返回 3 个候选。
 3. H3 / T7 的价格种类、条件、年款/生产年和来源有真实证据；其余不展示未核验广告起价。
 4. 403、超时、结构变化、HTML/PDF 冲突及字段失败拒绝更新；旧金额、核验时间与最后成功时间保留。
-5. 本地测试与 Pages 静态构建通过；同一更新工作流负责采集、数据写回、构建及部署，并打印逐品牌状态/原因。**GitHub 在线执行尚待用户完成仓库连接与 Pages 设置。**
+5. 本地测试与 Pages 静态构建通过；同一更新工作流负责采集、数据写回、构建及部署，并打印逐品牌状态/原因。GitHub 云端 CI 与 Pages 发布均已实际成功，见下面的在线验证记录。
 6. 五品牌接入及限制在 README / 来源登记中明确列出，没有宣称全部可自动采集。
 
 ## 尚未实际验证
 
-- 未在 GitHub 上推送或运行 Actions / Pages 部署：当前没有远程仓库地址、账号授权或线上部署结果。
 - 未在真实 iPhone 的 Safari 上操作添加主屏幕；390px 的 Chrome 布局与 Service Worker 离线已验证，不能等同于完整 Safari 兼容性认证。
 - 新项目没有连续 7/30/90 天的真实历史，正式页面显示「历史数据积累中」。历史积累与口径分组经过离线测试。
 - 官方促销未明确公布截止日期的记录，只能标记结束日未公布；3 天未核验或采集失败会降级为旧数据。
 
 下一步部署操作见 README 的 GitHub Pages 章节。价格覆盖扩展需要继续逐车型审核，不能靠放宽校验或填广告数字完成。
+
+## GitHub 在线验证（2026-10-15）
+
+- 完整源码已导入 [illusion2027/russia-auto-price-monitor](https://github.com/illusion2027/russia-auto-price-monitor)，临时导入归档和辅助工作流已清理。
+- [Offline checks #1](https://github.com/illusion2027/russia-auto-price-monitor/actions/runs/38602438482) 成功，包含 Python、前端逻辑、静态构建和响应式浏览器检查。
+- [采集及 Pages 发布 #1 / attempt 2](https://github.com/illusion2027/russia-auto-price-monitor/actions/runs/38603314515) 成功。第一次上传构建产物遇到 GitHub 端点 DNS `ENOTFOUND`，重试后采集、校验、数据写回、构建、产物上传和部署全部完成。
+- 线上地址：[Russia Auto Price Monitor](https://illusion2027.github.io/russia-auto-price-monitor/)。实际打开页面确认 5 品牌、39 车型、2 个当前核验车型、37 个待核验车型，并显示 H3 / T7 的金额及条件。
+- 云端 Changan 官网页面可访问，但完整报价解析仍待核验；这比本地 SSL 超时更进一步，不表示已有核验价格。Geely / Hongqi 同样仍待核验。
+- Pages Source 已设为 GitHub Actions，HTTPS 强制开启；每日 UTC 06:17（莫斯科 09:17）采集，GitHub 调度可能延迟。首次部署无需用户补充 Secret、API Key 或付费服务器。
+- 官方 Pages Actions 运行仍提示 Node.js 20 目标运行时弃用，实际由 GitHub 强制使用 Node.js 24 并成功；这不是测试或部署失败。
