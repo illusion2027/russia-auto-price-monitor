@@ -1,0 +1,25 @@
+[
+  {
+    "brand_id": "haval",
+    "model_id": "haval-h3",
+    "model_year": null,
+    "production_year": null,
+    "trim": "",
+    "price_kind": "official_promotional_reference",
+    "price_rub": null,
+    "raw_price": "",
+    "conditions": "",
+    "condition_labels": [],
+    "region": "",
+    "effective_date": null,
+    "valid_until": null,
+    "source_url": "https://haval.ru/purchase/catalogues/",
+    "source_type": "manual_verified",
+    "verified_at": "",
+    "status": "verified",
+    "confidence": 0.98,
+    "evidence_excerpt": "",
+    "evidence_sha256": "",
+    "price_basis": "starting_at"
+  }
+]

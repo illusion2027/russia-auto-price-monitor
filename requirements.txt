@@ -1,0 +1,5 @@
+httpx==0.28.1
+beautifulsoup4==4.12.3
+PyMuPDF==1.25.5
+jsonschema==4.23.0
+pytest==8.3.5

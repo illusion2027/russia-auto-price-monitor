@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#202b29" />
+    <meta
+      name="description"
+      content="俄罗斯官方新乘用车公开优惠参考价与指导价速查。每条报价保留条件、核验时间和来源。"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="俄汽价格" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Russia Auto Price Monitor · 俄汽价格</title>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <a class="logo" href="./"
+        ><span class="logo-mark">R<span>↗</span></span
+        ><span>俄汽价格<small>RUSSIA AUTO MONITOR</small></span></a
+      >
+      <div class="sidebar-label">价格工作台</div>
+      <nav aria-label="主导航">
+        <button class="nav-button active" data-page="catalog">
+          <span>▦</span>车型价格
+        </button>
+        <button class="nav-button" data-page="changes">
+          <span>↗</span>变动日志
+        </button>
+        <button class="nav-button" data-page="sources">
+          <span>◎</span>数据来源
+        </button>
+      </nav>
+      <div class="sidebar-bottom">
+        <span class="live-dot"></span> 公开官方渠道<small
+          >新乘用车 · 俄罗斯市场<br />每日计划更新 / 无需登录</small
+        ><button id="install-help">添加到 iPhone 主屏幕 ↗</button>
+      </div>
+    </aside>
+    <main>
+      <header class="topbar">
+        <span
+          >市场观察 <span class="slash">/</span>
+          <strong id="page-label">车型价格</strong></span
+        ><span class="market"
+          ><span class="flag">RU</span> 俄罗斯
+          <span class="currency">RUB ₽</span></span
+        >
+      </header>
+      <section class="intro">
+        <div>
+          <div class="eyebrow">OFFICIAL PRICES, CLEAR CONTEXT</div>
+          <h1>看清价格，也看清条件。</h1>
+          <p>五个品牌的俄罗斯新车价格，每一个数字都有出处。</p>
+        </div>
+        <div class="update-info">
+          <span class="live-dot"></span> 最近采集尝试<time id="updated"
+            >尚未运行</time
+          >
+        </div>
+      </section>
+      <div class="notice" id="data-notice">
+        <span class="notice-icon">i</span>
+        <div>
+          <strong>TP 参考 ≠ 真实成交价</strong
+          ><span
+            >醒目数字为官网公开优惠后参考价，可能要求置换或贷款。请展开条件并向官方经销商确认。</span
+          >
+        </div>
+      </div>
+      <div id="load-status" role="status">正在读取官方价格记录…</div>
+      <section class="stats" aria-label="数据概况">
+        <div>
+          <span>监测品牌</span><strong id="brand-count">—</strong
+          ><small>首批官方渠道</small>
+        </div>
+        <div>
+          <span>收录车型</span><strong id="model-count">—</strong
+          ><small>包含待核验车型</small>
+        </div>
+        <div>
+          <span>有当前核验价格</span><strong id="verified-count">—</strong
+          ><small>仅统计有效证据</small>
+        </div>
+        <div>
+          <span>价格尚待核验</span><strong id="pending-count">—</strong
+          ><small>空值不等于零元</small>
+        </div>
+      </section>
+      <section id="catalog-page" class="page">
+        <form id="query-form" class="query-panel">
+          <div class="query-title">
+            <h2>查询车型价格</h2>
+            <span>支持中文、英文与俄文关键词</span>
+          </div>
+          <div class="query-fields">
+            <label
+              >品牌<select id="brand">
+                <option value="">全部品牌</option>
+              </select></label
+            ><label class="search-label"
+              >车型关键词<input
+                id="keyword"
+                type="search"
+                autocomplete="off"
+                placeholder="试试 mon、CS75 或 红旗"
+                aria-describedby="search-hint" /></label
+            ><label
+              >车型<select id="model">
+                <option value="">全部车型 / 所有候选</option>
+              </select></label
+            ><button type="submit" class="primary">
+              查询价格 <span>↗</span>
+            </button>
+          </div>
+          <div id="search-hint">不必输入完整名称；多个相近车型会同时列出。</div>
+        </form>
+        <div class="list-heading">
+          <div>
+            <h2>车型价格一览 <span id="result-count"></span></h2>
+            <p>仅展示已核验报价；其余车型保留等待核验。</p>
+          </div>
+          <div class="list-tools">
+            <label class="sr-only" for="sort">价格排序</label
+            ><select id="sort">
+              <option value="default">核验价格优先</option>
+              <option value="asc">参考价格：从低到高</option>
+              <option value="desc">参考价格：从高到低</option>
+              <option value="name">车型名称</option></select
+            ><button id="export" class="secondary">↓ 导出 CSV</button>
+          </div>
+        </div>
+        <div id="cards" class="cards" aria-live="polite"></div>
+      </section>
+      <section id="changes-page" class="page" hidden>
+        <div class="list-heading">
+          <div>
+            <h2>价格变动日志</h2>
+            <p>相同年款、配置、价格口径和条件才计算涨跌。</p>
+          </div>
+        </div>
+        <label class="history-filter"
+          >车型<select id="history-model"></select
+        ></label>
+        <div class="range-buttons" id="history-range">
+          <button data-days="7">7 天</button
+          ><button data-days="30" class="selected">30 天</button
+          ><button data-days="90">90 天</button>
+        </div>
+        <div id="history-content"></div>
+      </section>
+      <section id="sources-page" class="page" hidden>
+        <div class="list-heading">
+          <div>
+            <h2>数据来源与覆盖情况</h2>
+            <p>官网可访问不代表价格已经核验；失败记录会保留。</p>
+          </div>
+        </div>
+        <div id="sources" class="source-grid"></div>
+      </section>
+      <footer>
+        <span
+          >公开参考 · 来源可追溯 · 条件透明<br /><button
+            id="install-help-mobile"
+          >
+            添加到 iPhone 主屏幕 ↗
+          </button></span
+        ><span>仅限官方新乘用车，排除平行进口、二手车与皮卡。</span>
+      </footer>
+    </main>
+    <dialog id="detail">
+      <div class="dialog-top">
+        <span>车型价格详情</span
+        ><button id="close-detail" aria-label="关闭详情">×</button>
+      </div>
+      <div id="detail-body"></div>
+    </dialog>
+    <dialog id="install">
+      <div class="dialog-top">
+        <strong>添加到 iPhone 主屏幕</strong
+        ><button id="close-install" aria-label="关闭说明">×</button>
+      </div>
+      <p>在 Safari 打开本页面，点击「分享」，选择「添加到主屏幕」。</p>
+      <p>
+        首次联网打开后可离线查看已缓存页面。离线报价会标为旧快照，重新联网后刷新以取得最新核验状态。
+      </p>
+    </dialog>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

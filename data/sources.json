@@ -1,0 +1,73 @@
+[
+  {
+    "brand_id": "geely",
+    "source_url": "https://www.geely-motors.com/model/monjaro/",
+    "allowed_hosts": [
+      "www.geely-motors.com",
+      "geely-motors.com"
+    ],
+    "validation_status": "pending_validation",
+    "reason": "官网页面/PDF需逐项核验；本地首次请求超时。",
+    "adapter": "geely",
+    "parser_version": "1",
+    "catalog_source": "https://www.geely-motors.com/model/monjaro/"
+  },
+  {
+    "brand_id": "haval",
+    "source_url": "https://haval.ru/purchase/catalogues/",
+    "allowed_hosts": [
+      "haval.ru"
+    ],
+    "validation_status": "partial_verified",
+    "reason": "H3 官网配置卡已核验；仅该配置起价，最高价和 MSRP 未核验。",
+    "adapter": "haval",
+    "parser_version": "1",
+    "catalog_source": "https://haval.ru/purchase/catalogues/",
+    "last_success_at": "2026-10-14T15:41:29+00:00",
+    "verified_models": [
+      "haval-h3"
+    ]
+  },
+  {
+    "brand_id": "tenet",
+    "source_url": "https://tenet.ru/models/t7/",
+    "allowed_hosts": [
+      "tenet.ru",
+      "1.cdn.perxis.ru"
+    ],
+    "validation_status": "partial_verified",
+    "reason": "T7 官网配置卡与官方 PDF 逐列一致；已核验四个配置的优惠参考价和 RRP，其他车型待核验。",
+    "adapter": "tenet",
+    "parser_version": "1",
+    "catalog_source": "https://tenet.ru/models/t7/",
+    "last_success_at": "2026-10-14T15:41:32+00:00",
+    "verified_models": [
+      "tenet-t7"
+    ]
+  },
+  {
+    "brand_id": "changan",
+    "source_url": "https://changanauto.ru/model",
+    "allowed_hosts": [
+      "changanauto.ru"
+    ],
+    "validation_status": "pending_validation",
+    "reason": "官网首次请求超时；广告起售价缺少完整年款及条件。",
+    "adapter": "changan",
+    "parser_version": "1",
+    "catalog_source": "https://changanauto.ru/model"
+  },
+  {
+    "brand_id": "hongqi",
+    "source_url": "https://hongqi.ru/prices",
+    "allowed_hosts": [
+      "hongqi.ru",
+      "cdn.hongqi.ru"
+    ],
+    "validation_status": "pending_validation",
+    "reason": "官网价格目录可访问；PDF布局/生产年和条件尚待核验。",
+    "adapter": "hongqi",
+    "parser_version": "1",
+    "catalog_source": "https://hongqi.ru/prices"
+  }
+]

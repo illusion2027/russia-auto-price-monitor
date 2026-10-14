@@ -1,0 +1,1685 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-14T15:41:32+00:00",
+  "built_at": "2026-10-14T15:51:33+00:00",
+  "brands": [
+    {
+      "brand_id": "geely",
+      "name_en": "Geely",
+      "name_zh": "吉利",
+      "aliases": [
+        "吉利",
+        "Джили"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    },
+    {
+      "brand_id": "haval",
+      "name_en": "HAVAL",
+      "name_zh": "哈弗",
+      "aliases": [
+        "哈弗",
+        "Хавейл"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    },
+    {
+      "brand_id": "tenet",
+      "name_en": "TENET",
+      "name_zh": "TENET",
+      "aliases": [
+        "Тенет"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    },
+    {
+      "brand_id": "changan",
+      "name_en": "Changan",
+      "name_zh": "长安",
+      "aliases": [
+        "长安",
+        "Чанган"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    },
+    {
+      "brand_id": "hongqi",
+      "name_en": "Hongqi",
+      "name_zh": "红旗",
+      "aliases": [
+        "红旗",
+        "Хончи"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    }
+  ],
+  "models": [
+    {
+      "model_id": "geely-monjaro",
+      "brand_id": "geely",
+      "name": "Monjaro",
+      "aliases": [
+        "蒙扎罗",
+        "星越L",
+        "Монджаро"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "geely-coolray",
+      "brand_id": "geely",
+      "name": "Coolray",
+      "aliases": [
+        "缤越",
+        "Кулрей"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "geely-cityray",
+      "brand_id": "geely",
+      "name": "Cityray",
+      "aliases": [
+        "博越COOL",
+        "Ситирей"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "geely-atlas",
+      "brand_id": "geely",
+      "name": "Atlas",
+      "aliases": [
+        "博越L",
+        "Атлас"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "geely-okavango",
+      "brand_id": "geely",
+      "name": "Okavango",
+      "aliases": [
+        "豪越L",
+        "Окаванго"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "geely-preface",
+      "brand_id": "geely",
+      "name": "Preface",
+      "aliases": [
+        "星瑞",
+        "Префейс"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "geely-ex5",
+      "brand_id": "geely",
+      "name": "EX5",
+      "aliases": [
+        "银河E5"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "geely-ex5-hybrid",
+      "brand_id": "geely",
+      "name": "EX5 Hybrid",
+      "aliases": [
+        "EX5 EM-i",
+        "银河星舰7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "haval-jolion",
+      "brand_id": "haval",
+      "name": "Jolion",
+      "aliases": [
+        "初恋",
+        "Джолион"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "haval-m6",
+      "brand_id": "haval",
+      "name": "M6",
+      "aliases": [
+        "哈弗M6"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "haval-dargo",
+      "brand_id": "haval",
+      "name": "Dargo",
+      "aliases": [
+        "大狗",
+        "Дарго"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "haval-dargo-x",
+      "brand_id": "haval",
+      "name": "Dargo X",
+      "aliases": [
+        "大狗X",
+        "Дарго X"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "haval-f7",
+      "brand_id": "haval",
+      "name": "F7",
+      "aliases": [
+        "哈弗F7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "haval-f7x",
+      "brand_id": "haval",
+      "name": "F7x",
+      "aliases": [
+        "哈弗F7X"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "haval-h3",
+      "brand_id": "haval",
+      "name": "H3",
+      "aliases": [
+        "酷狗",
+        "哈弗H3"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "verified",
+      "promo": {
+        "min_rub": 2549000,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": {
+          "brand_id": "haval",
+          "model_id": "haval-h3",
+          "model_year": 2026,
+          "production_year": 2026,
+          "trim": "Оптимум",
+          "price_kind": "official_promotional_reference",
+          "price_rub": 2549000,
+          "raw_price": "от 2 549 000 ₽",
+          "conditions": "Цена автомобиля HAVAL H3 2026 модельного года в комплектации Оптимум, 2026 года производства с учетом выгоды 200 000 рублей по программе Лояльный трейд-ин. Выгода 200 000 рублей предусмотрена с 17.08.2026 при приобретении HAVAL H3 2026 модельного года 2026 года производства по программе Лояльный Трейд-ин (при сдаче дилеру а/м марки HAVAL или Great Wall). В трейд-ин принимаются автомобили с пробегом, находящиеся минимум 3 (три) последних месяца в собственности и эксплуатации (поставлены на учет в ГИБДД) сдающего лица или его СУПРУГИ/СУПРУГА. В качестве документов, подтверждающих срок владения сдаваемого в трейд-ин автомобиля, собственнику необходимо предоставить копию ПТС или СТС или карточку учета ТС из ГИБДД с печатью и подписью; копию свидетельства о браке если сдаваемый автомобиль принадлежал супругу / супруге. Подробности уточняйте в дилерских центрах HAVAL Pro.",
+          "condition_labels": [
+            "置换 / Trade-in"
+          ],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-08-17",
+          "valid_until": null,
+          "source_url": "https://haval.ru/purchase/catalogues/",
+          "source_type": "official_html",
+          "verified_at": "2026-10-14T15:41:29+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "HAVAL H3 | от 2 549 000 ₽ | Цена автомобиля HAVAL H3 2026 модельного года в комплектации Оптимум, 2026 года производства с учетом выгоды 200 000 рублей по программе Лояльный трейд-ин. Выгода 200 000 рублей предусмотрена с 17.08.2026 при приобретении HAVAL H3 2026 модельного года 2026 года производства по программе Лояльный Трейд-ин (при сдаче дилеру а/м марки HAVAL или Great Wall). В трейд-ин принимаются автомобили с пробегом, находящиеся минимум 3 (три) последних месяца в собственности и эксплуатации (поставлены на учет в ГИБДД) сдающего лица или его СУПРУГИ/СУПРУГА. В качестве документов, подтверждающих срок владения сдаваемого в трейд-ин автомобиля, собственнику необходимо предоставить копию ПТС или СТС или карточку учета ТС из ГИБДД с печатью и подписью; копию свидетельства о браке если сдаваемый автомобиль принадлежал супругу / супруге. Подробности уточняйте в дилерских центрах HAVAL Pro.",
+          "evidence_sha256": "5f1d6bc585df38103ce1d1ed83d46a6e594de377eed4470ca1104635e046daec",
+          "price_basis": "starting_at",
+          "last_success_at": "2026-10-14T15:41:29+00:00",
+          "failure_reason": null
+        },
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": [
+        {
+          "brand_id": "haval",
+          "model_id": "haval-h3",
+          "model_year": 2026,
+          "production_year": 2026,
+          "trim": "Оптимум",
+          "price_kind": "official_promotional_reference",
+          "price_rub": 2549000,
+          "raw_price": "от 2 549 000 ₽",
+          "conditions": "Цена автомобиля HAVAL H3 2026 модельного года в комплектации Оптимум, 2026 года производства с учетом выгоды 200 000 рублей по программе Лояльный трейд-ин. Выгода 200 000 рублей предусмотрена с 17.08.2026 при приобретении HAVAL H3 2026 модельного года 2026 года производства по программе Лояльный Трейд-ин (при сдаче дилеру а/м марки HAVAL или Great Wall). В трейд-ин принимаются автомобили с пробегом, находящиеся минимум 3 (три) последних месяца в собственности и эксплуатации (поставлены на учет в ГИБДД) сдающего лица или его СУПРУГИ/СУПРУГА. В качестве документов, подтверждающих срок владения сдаваемого в трейд-ин автомобиля, собственнику необходимо предоставить копию ПТС или СТС или карточку учета ТС из ГИБДД с печатью и подписью; копию свидетельства о браке если сдаваемый автомобиль принадлежал супругу / супруге. Подробности уточняйте в дилерских центрах HAVAL Pro.",
+          "condition_labels": [
+            "置换 / Trade-in"
+          ],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-08-17",
+          "valid_until": null,
+          "source_url": "https://haval.ru/purchase/catalogues/",
+          "source_type": "official_html",
+          "verified_at": "2026-10-14T15:41:29+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "HAVAL H3 | от 2 549 000 ₽ | Цена автомобиля HAVAL H3 2026 модельного года в комплектации Оптимум, 2026 года производства с учетом выгоды 200 000 рублей по программе Лояльный трейд-ин. Выгода 200 000 рублей предусмотрена с 17.08.2026 при приобретении HAVAL H3 2026 модельного года 2026 года производства по программе Лояльный Трейд-ин (при сдаче дилеру а/м марки HAVAL или Great Wall). В трейд-ин принимаются автомобили с пробегом, находящиеся минимум 3 (три) последних месяца в собственности и эксплуатации (поставлены на учет в ГИБДД) сдающего лица или его СУПРУГИ/СУПРУГА. В качестве документов, подтверждающих срок владения сдаваемого в трейд-ин автомобиля, собственнику необходимо предоставить копию ПТС или СТС или карточку учета ТС из ГИБДД с печатью и подписью; копию свидетельства о браке если сдаваемый автомобиль принадлежал супругу / супруге. Подробности уточняйте в дилерских центрах HAVAL Pro.",
+          "evidence_sha256": "5f1d6bc585df38103ce1d1ed83d46a6e594de377eed4470ca1104635e046daec",
+          "price_basis": "starting_at",
+          "last_success_at": "2026-10-14T15:41:29+00:00",
+          "failure_reason": null
+        }
+      ]
+    },
+    {
+      "model_id": "haval-h5",
+      "brand_id": "haval",
+      "name": "H5",
+      "aliases": [
+        "哈弗H5"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "haval-h7",
+      "brand_id": "haval",
+      "name": "H7",
+      "aliases": [
+        "猛龙",
+        "哈弗H7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "haval-h9",
+      "brand_id": "haval",
+      "name": "H9",
+      "aliases": [
+        "哈弗H9"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "tenet-t4",
+      "brand_id": "tenet",
+      "name": "T4",
+      "aliases": [
+        "Т4"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://tenet.ru/models/t7/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "tenet-t4l",
+      "brand_id": "tenet",
+      "name": "T4L",
+      "aliases": [
+        "Т4Л"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://tenet.ru/models/t7/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "tenet-t7",
+      "brand_id": "tenet",
+      "name": "T7",
+      "aliases": [
+        "Т7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://tenet.ru/models/t7/",
+      "status": "verified",
+      "promo": {
+        "min_rub": 2625000,
+        "max_rub": 3060000,
+        "coverage": "observed_trims_only",
+        "min_offer": {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Active 2WD",
+          "price_kind": "official_promotional_reference",
+          "price_rub": 2625000,
+          "raw_price": "2 625 000",
+          "conditions": "Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "condition_labels": [
+            "置换 / Trade-in"
+          ],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 625 000 | Рекомендуемая цена перепродажи: 2 805 000 | Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        },
+        "max_offer": {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Prime 4WD",
+          "price_kind": "official_promotional_reference",
+          "price_rub": 3060000,
+          "raw_price": "3 060 000",
+          "conditions": "Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "condition_labels": [
+            "置换 / Trade-in"
+          ],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 4WD | Максимальная цена перепродажи с учетом всех выгод: 3 060 000 | Рекомендуемая цена перепродажи: 3 210 000 | Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        }
+      },
+      "msrp": {
+        "min_rub": 2805000,
+        "max_rub": 3210000,
+        "coverage": "observed_trims_only",
+        "min_offer": {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Active 2WD",
+          "price_kind": "msrp",
+          "price_rub": 2805000,
+          "raw_price": "2 805 000",
+          "conditions": "Рекомендуемая цена перепродажи; цена актуальна на 08.10.2026. Не является публичной офертой. Подробности у официальных дилеров TENET.",
+          "condition_labels": [],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 625 000 | Рекомендуемая цена перепродажи: 2 805 000 | Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        },
+        "max_offer": {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Prime 4WD",
+          "price_kind": "msrp",
+          "price_rub": 3210000,
+          "raw_price": "3 210 000",
+          "conditions": "Рекомендуемая цена перепродажи; цена актуальна на 08.10.2026. Не является публичной офертой. Подробности у официальных дилеров TENET.",
+          "condition_labels": [],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 4WD | Максимальная цена перепродажи с учетом всех выгод: 3 060 000 | Рекомендуемая цена перепродажи: 3 210 000 | Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        }
+      },
+      "offers": [
+        {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Active 2WD",
+          "price_kind": "official_promotional_reference",
+          "price_rub": 2625000,
+          "raw_price": "2 625 000",
+          "conditions": "Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "condition_labels": [
+            "置换 / Trade-in"
+          ],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 625 000 | Рекомендуемая цена перепродажи: 2 805 000 | Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        },
+        {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Active 2WD",
+          "price_kind": "msrp",
+          "price_rub": 2805000,
+          "raw_price": "2 805 000",
+          "conditions": "Рекомендуемая цена перепродажи; цена актуальна на 08.10.2026. Не является публичной офертой. Подробности у официальных дилеров TENET.",
+          "condition_labels": [],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 625 000 | Рекомендуемая цена перепродажи: 2 805 000 | Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        },
+        {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Prime 2WD",
+          "price_kind": "official_promotional_reference",
+          "price_rub": 2805000,
+          "raw_price": "2 805 000",
+          "conditions": "Выгода по трейд-ин: 200 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "condition_labels": [
+            "置换 / Trade-in"
+          ],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 805 000 | Рекомендуемая цена перепродажи: 3 005 000 | Выгода по трейд-ин: 200 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        },
+        {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Prime 2WD",
+          "price_kind": "msrp",
+          "price_rub": 3005000,
+          "raw_price": "3 005 000",
+          "conditions": "Рекомендуемая цена перепродажи; цена актуальна на 08.10.2026. Не является публичной офертой. Подробности у официальных дилеров TENET.",
+          "condition_labels": [],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 805 000 | Рекомендуемая цена перепродажи: 3 005 000 | Выгода по трейд-ин: 200 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        },
+        {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Active 4WD",
+          "price_kind": "official_promotional_reference",
+          "price_rub": 2880000,
+          "raw_price": "2 880 000",
+          "conditions": "Выгода по трейд-ин: 130 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "condition_labels": [
+            "置换 / Trade-in"
+          ],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 4WD | Максимальная цена перепродажи с учетом всех выгод: 2 880 000 | Рекомендуемая цена перепродажи: 3 010 000 | Выгода по трейд-ин: 130 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        },
+        {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Active 4WD",
+          "price_kind": "msrp",
+          "price_rub": 3010000,
+          "raw_price": "3 010 000",
+          "conditions": "Рекомендуемая цена перепродажи; цена актуальна на 08.10.2026. Не является публичной офертой. Подробности у официальных дилеров TENET.",
+          "condition_labels": [],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 4WD | Максимальная цена перепродажи с учетом всех выгод: 2 880 000 | Рекомендуемая цена перепродажи: 3 010 000 | Выгода по трейд-ин: 130 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        },
+        {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Prime 4WD",
+          "price_kind": "official_promotional_reference",
+          "price_rub": 3060000,
+          "raw_price": "3 060 000",
+          "conditions": "Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "condition_labels": [
+            "置换 / Trade-in"
+          ],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 4WD | Максимальная цена перепродажи с учетом всех выгод: 3 060 000 | Рекомендуемая цена перепродажи: 3 210 000 | Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        },
+        {
+          "brand_id": "tenet",
+          "model_id": "tenet-t7",
+          "model_year": null,
+          "production_year": 2026,
+          "trim": "Prime 4WD",
+          "price_kind": "msrp",
+          "price_rub": 3210000,
+          "raw_price": "3 210 000",
+          "conditions": "Рекомендуемая цена перепродажи; цена актуальна на 08.10.2026. Не является публичной офертой. Подробности у официальных дилеров TENET.",
+          "condition_labels": [],
+          "region": "俄罗斯；以官方经销商确认为准",
+          "effective_date": "2026-10-08",
+          "valid_until": null,
+          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
+          "source_type": "official_pdf",
+          "verified_at": "2026-10-14T15:41:32+00:00",
+          "status": "verified",
+          "confidence": 0.98,
+          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 4WD | Максимальная цена перепродажи с учетом всех выгод: 3 060 000 | Рекомендуемая цена перепродажи: 3 210 000 | Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
+          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
+          "price_basis": "exact_trim",
+          "last_success_at": "2026-10-14T15:41:32+00:00",
+          "failure_reason": null
+        }
+      ]
+    },
+    {
+      "model_id": "tenet-t8",
+      "brand_id": "tenet",
+      "name": "T8",
+      "aliases": [
+        "Т8"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://tenet.ru/models/t7/",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "changan-cs75-plus",
+      "brand_id": "changan",
+      "name": "CS75 Plus",
+      "aliases": [
+        "CS75PLUS",
+        "Чанган CS75 Plus"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "changan-cs75-plus-new",
+      "brand_id": "changan",
+      "name": "CS75 Plus New",
+      "aliases": [
+        "CS75PLUS NEW",
+        "第四代CS75PLUS"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "changan-cs75-pro",
+      "brand_id": "changan",
+      "name": "CS75 Pro",
+      "aliases": [
+        "CS75PRO"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "changan-cs35-max",
+      "brand_id": "changan",
+      "name": "CS35 Max",
+      "aliases": [
+        "CS35MAX"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "changan-cs35-plus",
+      "brand_id": "changan",
+      "name": "CS35 Plus",
+      "aliases": [
+        "CS35PLUS"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "changan-cs95",
+      "brand_id": "changan",
+      "name": "CS95",
+      "aliases": [
+        "长安CS95"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "changan-alsvin",
+      "brand_id": "changan",
+      "name": "Alsvin",
+      "aliases": [
+        "悦翔",
+        "Алсвин"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "changan-eado-plus",
+      "brand_id": "changan",
+      "name": "Eado Plus",
+      "aliases": [
+        "逸动PLUS"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "hongqi-hs3",
+      "brand_id": "hongqi",
+      "name": "HS3",
+      "aliases": [
+        "红旗HS3"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "hongqi-hs5",
+      "brand_id": "hongqi",
+      "name": "HS5",
+      "aliases": [
+        "红旗HS5"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "hongqi-hs7",
+      "brand_id": "hongqi",
+      "name": "HS7",
+      "aliases": [
+        "红旗HS7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "hongqi-h5",
+      "brand_id": "hongqi",
+      "name": "H5",
+      "aliases": [
+        "红旗H5"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "hongqi-h6",
+      "brand_id": "hongqi",
+      "name": "H6",
+      "aliases": [
+        "红旗H6"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "hongqi-h9",
+      "brand_id": "hongqi",
+      "name": "H9",
+      "aliases": [
+        "红旗H9"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "hongqi-hq9",
+      "brand_id": "hongqi",
+      "name": "HQ9",
+      "aliases": [
+        "红旗HQ9"
+      ],
+      "body_type": "mpv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "hongqi-e-hs9",
+      "brand_id": "hongqi",
+      "name": "E-HS9",
+      "aliases": [
+        "红旗EHS9"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    },
+    {
+      "model_id": "hongqi-guoya",
+      "brand_id": "hongqi",
+      "name": "Guoya",
+      "aliases": [
+        "国雅"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices",
+      "status": "needs_review",
+      "promo": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "msrp": {
+        "min_rub": null,
+        "max_rub": null,
+        "coverage": "observed_trims_only",
+        "min_offer": null,
+        "max_offer": null
+      },
+      "offers": []
+    }
+  ],
+  "sources": [
+    {
+      "brand_id": "geely",
+      "source_url": "https://www.geely-motors.com/model/monjaro/",
+      "allowed_hosts": [
+        "www.geely-motors.com",
+        "geely-motors.com"
+      ],
+      "validation_status": "pending_validation",
+      "reason": "NeedsReview: Official page reachable; 1 candidate price documents; year/trim/conditions parser pending review",
+      "adapter": "geely",
+      "parser_version": "1",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/",
+      "last_run": {
+        "at": "2026-10-14T15:17:00+00:00",
+        "brand_id": "geely",
+        "status": "needs_review",
+        "offers_count": 0,
+        "reason": "NeedsReview: Official page reachable; 1 candidate price documents; year/trim/conditions parser pending review"
+      },
+      "verified_models": []
+    },
+    {
+      "brand_id": "haval",
+      "source_url": "https://haval.ru/purchase/catalogues/",
+      "allowed_hosts": [
+        "haval.ru"
+      ],
+      "validation_status": "partial_verified",
+      "reason": "H3 官网配置卡已核验；仅该配置起价，最高价和 MSRP 未核验。",
+      "adapter": "haval",
+      "parser_version": "1",
+      "catalog_source": "https://haval.ru/purchase/catalogues/",
+      "last_success_at": "2026-10-14T15:41:29+00:00",
+      "verified_models": [
+        "haval-h3"
+      ],
+      "last_run": {
+        "at": "2026-10-14T15:41:29+00:00",
+        "brand_id": "haval",
+        "status": "partial_success",
+        "offers_count": 1,
+        "reason": null
+      }
+    },
+    {
+      "brand_id": "tenet",
+      "source_url": "https://tenet.ru/models/t7/",
+      "allowed_hosts": [
+        "tenet.ru",
+        "1.cdn.perxis.ru"
+      ],
+      "validation_status": "partial_verified",
+      "reason": "T7 官网配置卡与官方 PDF 逐列一致；已核验四个配置的优惠参考价和 RRP，其他车型待核验。",
+      "adapter": "tenet",
+      "parser_version": "1",
+      "catalog_source": "https://tenet.ru/models/t7/",
+      "last_success_at": "2026-10-14T15:41:32+00:00",
+      "verified_models": [
+        "tenet-t7"
+      ],
+      "last_run": {
+        "at": "2026-10-14T15:41:32+00:00",
+        "brand_id": "tenet",
+        "status": "partial_success",
+        "offers_count": 8,
+        "reason": null
+      }
+    },
+    {
+      "brand_id": "changan",
+      "source_url": "https://changanauto.ru/model",
+      "allowed_hosts": [
+        "changanauto.ru"
+      ],
+      "validation_status": "pending_validation",
+      "reason": "ConnectTimeout: _ssl.c:993: The handshake operation timed out",
+      "adapter": "changan",
+      "parser_version": "1",
+      "catalog_source": "https://changanauto.ru/model",
+      "last_run": {
+        "at": "2026-10-14T15:17:23+00:00",
+        "brand_id": "changan",
+        "status": "failed",
+        "offers_count": 0,
+        "reason": "ConnectTimeout: _ssl.c:993: The handshake operation timed out"
+      },
+      "verified_models": []
+    },
+    {
+      "brand_id": "hongqi",
+      "source_url": "https://hongqi.ru/prices",
+      "allowed_hosts": [
+        "hongqi.ru",
+        "cdn.hongqi.ru"
+      ],
+      "validation_status": "pending_validation",
+      "reason": "NeedsReview: Official page reachable; 11 candidate price documents; year/trim/conditions parser pending review",
+      "adapter": "hongqi",
+      "parser_version": "1",
+      "catalog_source": "https://hongqi.ru/prices",
+      "last_run": {
+        "at": "2026-10-14T15:17:57+00:00",
+        "brand_id": "hongqi",
+        "status": "needs_review",
+        "offers_count": 0,
+        "reason": "NeedsReview: Official page reachable; 11 candidate price documents; year/trim/conditions parser pending review"
+      },
+      "verified_models": []
+    }
+  ],
+  "catalog_note": "中文别名仅为检索提示，不证明各市场车型完全等同。目录不表示已核验价格；子品牌单独管理。"
+}

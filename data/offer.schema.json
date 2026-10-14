@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["brand_id", "model_id", "model_year", "production_year", "trim", "price_kind", "price_rub", "raw_price", "conditions", "condition_labels", "region", "effective_date", "valid_until", "source_url", "source_type", "verified_at", "status", "confidence", "evidence_excerpt", "evidence_sha256", "price_basis"],
+  "properties": {
+    "brand_id": {"enum": ["geely", "haval", "tenet", "changan", "hongqi"]},
+    "model_id": {"type": "string", "minLength": 3},
+    "model_year": {"type": ["integer", "null"], "minimum": 2020, "maximum": 2035},
+    "production_year": {"type": ["integer", "null"], "minimum": 2020, "maximum": 2035},
+    "trim": {"type": "string", "minLength": 1},
+    "price_kind": {"enum": ["official_promotional_reference", "msrp", "dealer_offer", "verified_transaction"]},
+    "price_rub": {"type": "integer", "minimum": 300000, "maximum": 100000000},
+    "raw_price": {"type": "string", "minLength": 1},
+    "conditions": {"type": "string", "minLength": 1},
+    "condition_labels": {"type": "array", "items": {"type": "string"}},
+    "region": {"type": "string", "minLength": 1},
+    "effective_date": {"type": ["string", "null"], "format": "date"},
+    "valid_until": {"type": ["string", "null"], "format": "date"},
+    "source_url": {"type": "string", "format": "uri"},
+    "source_type": {"enum": ["official_html", "official_pdf", "manual_verified"]},
+    "verified_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["verified", "stale", "expired", "needs_review"]},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "evidence_excerpt": {"type": "string"},
+    "evidence_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "price_basis": {"enum": ["exact_trim", "starting_at"]},
+    "last_success_at": {"type": "string", "format": "date-time"},
+    "failure_reason": {"type": ["string", "null"]}
+  }
+}

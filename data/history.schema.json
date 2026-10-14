@@ -1,0 +1,10 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object",
+  "required":["schema_version","observations","changes"],
+  "properties":{
+    "schema_version":{"const":1},
+    "observations":{"type":"array","items":{"type":"object","required":["at","day","model_id","series_key","comparison_key","offer"],"properties":{"at":{"type":"string","format":"date-time"},"day":{"type":"string","format":"date"},"comparison_key":{"type":"string","pattern":"^[a-f0-9]{64}$"},"offer":{"type":"object"}}}},
+    "changes":{"type":"array","items":{"type":"object","required":["at","model_id","series_key","comparison_key","kind","delta_rub","delta_percent","previous_offer","offer"],"properties":{"kind":{"enum":["baseline","price_change","scope_change"]},"delta_rub":{"type":["integer","null"]},"delta_percent":{"type":["number","null"]},"previous_offer":{"type":["object","null"]},"offer":{"type":"object"}},"allOf":[{"if":{"properties":{"kind":{"const":"scope_change"}}},"then":{"properties":{"delta_rub":{"type":"null"},"delta_percent":{"type":"null"}}}}]}}
+  }
+}

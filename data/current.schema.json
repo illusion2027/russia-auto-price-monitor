@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["schema_version","generated_at","built_at","brands","models","sources","catalog_note"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "generated_at": {"type": ["string","null"],"format":"date-time"},
+    "built_at": {"type": "string","format":"date-time"},
+    "brands": {"type":"array","minItems":5,"maxItems":5,"items":{"type":"object","required":["brand_id","name_en","name_zh","aliases","active"]}},
+    "models": {"type":"array","items":{"type":"object","required":["model_id","brand_id","name","aliases","status","offers","promo","msrp"],"properties":{
+      "model_id":{"type":"string"},"status":{"enum":["verified","stale","expired","needs_review"]},
+      "aliases":{"type":"array","items":{"type":"string"}},
+      "offers":{"type":"array","items":{"type":"object","required":["price_rub","verified_at","conditions","source_url","status"]}},
+      "promo":{"$ref":"#/$defs/bounds"},"msrp":{"$ref":"#/$defs/bounds"}
+    }}},
+    "sources":{"type":"array","minItems":5,"maxItems":5,"items":{"type":"object","required":["brand_id","source_url","validation_status","reason","verified_models","last_run"]}},
+    "catalog_note":{"type":"string"}
+  },
+  "$defs":{"bounds":{"type":"object","required":["min_rub","max_rub","min_offer","max_offer","coverage"],"properties":{"min_rub":{"type":["integer","null"],"minimum":300000},"max_rub":{"type":["integer","null"],"minimum":300000},"min_offer":{"type":["object","null"]},"max_offer":{"type":["object","null"]},"coverage":{"const":"observed_trims_only"}}}}
+}

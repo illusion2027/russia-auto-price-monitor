@@ -1,0 +1,591 @@
+{
+  "brands": [
+    {
+      "brand_id": "geely",
+      "name_en": "Geely",
+      "name_zh": "吉利",
+      "aliases": [
+        "吉利",
+        "Джили"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    },
+    {
+      "brand_id": "haval",
+      "name_en": "HAVAL",
+      "name_zh": "哈弗",
+      "aliases": [
+        "哈弗",
+        "Хавейл"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    },
+    {
+      "brand_id": "tenet",
+      "name_en": "TENET",
+      "name_zh": "TENET",
+      "aliases": [
+        "Тенет"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    },
+    {
+      "brand_id": "changan",
+      "name_en": "Changan",
+      "name_zh": "长安",
+      "aliases": [
+        "长安",
+        "Чанган"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    },
+    {
+      "brand_id": "hongqi",
+      "name_en": "Hongqi",
+      "name_zh": "红旗",
+      "aliases": [
+        "红旗",
+        "Хончи"
+      ],
+      "active": true,
+      "parent_brand_id": null
+    }
+  ],
+  "models": [
+    {
+      "model_id": "geely-monjaro",
+      "brand_id": "geely",
+      "name": "Monjaro",
+      "aliases": [
+        "蒙扎罗",
+        "星越L",
+        "Монджаро"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/"
+    },
+    {
+      "model_id": "geely-coolray",
+      "brand_id": "geely",
+      "name": "Coolray",
+      "aliases": [
+        "缤越",
+        "Кулрей"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/"
+    },
+    {
+      "model_id": "geely-cityray",
+      "brand_id": "geely",
+      "name": "Cityray",
+      "aliases": [
+        "博越COOL",
+        "Ситирей"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/"
+    },
+    {
+      "model_id": "geely-atlas",
+      "brand_id": "geely",
+      "name": "Atlas",
+      "aliases": [
+        "博越L",
+        "Атлас"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/"
+    },
+    {
+      "model_id": "geely-okavango",
+      "brand_id": "geely",
+      "name": "Okavango",
+      "aliases": [
+        "豪越L",
+        "Окаванго"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/"
+    },
+    {
+      "model_id": "geely-preface",
+      "brand_id": "geely",
+      "name": "Preface",
+      "aliases": [
+        "星瑞",
+        "Префейс"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/"
+    },
+    {
+      "model_id": "geely-ex5",
+      "brand_id": "geely",
+      "name": "EX5",
+      "aliases": [
+        "银河E5"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/"
+    },
+    {
+      "model_id": "geely-ex5-hybrid",
+      "brand_id": "geely",
+      "name": "EX5 Hybrid",
+      "aliases": [
+        "EX5 EM-i",
+        "银河星舰7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://www.geely-motors.com/model/monjaro/"
+    },
+    {
+      "model_id": "haval-jolion",
+      "brand_id": "haval",
+      "name": "Jolion",
+      "aliases": [
+        "初恋",
+        "Джолион"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "haval-m6",
+      "brand_id": "haval",
+      "name": "M6",
+      "aliases": [
+        "哈弗M6"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "haval-dargo",
+      "brand_id": "haval",
+      "name": "Dargo",
+      "aliases": [
+        "大狗",
+        "Дарго"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "haval-dargo-x",
+      "brand_id": "haval",
+      "name": "Dargo X",
+      "aliases": [
+        "大狗X",
+        "Дарго X"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "haval-f7",
+      "brand_id": "haval",
+      "name": "F7",
+      "aliases": [
+        "哈弗F7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "haval-f7x",
+      "brand_id": "haval",
+      "name": "F7x",
+      "aliases": [
+        "哈弗F7X"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "haval-h3",
+      "brand_id": "haval",
+      "name": "H3",
+      "aliases": [
+        "酷狗",
+        "哈弗H3"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "haval-h5",
+      "brand_id": "haval",
+      "name": "H5",
+      "aliases": [
+        "哈弗H5"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "haval-h7",
+      "brand_id": "haval",
+      "name": "H7",
+      "aliases": [
+        "猛龙",
+        "哈弗H7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "haval-h9",
+      "brand_id": "haval",
+      "name": "H9",
+      "aliases": [
+        "哈弗H9"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://haval.ru/purchase/catalogues/"
+    },
+    {
+      "model_id": "tenet-t4",
+      "brand_id": "tenet",
+      "name": "T4",
+      "aliases": [
+        "Т4"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://tenet.ru/models/t7/"
+    },
+    {
+      "model_id": "tenet-t4l",
+      "brand_id": "tenet",
+      "name": "T4L",
+      "aliases": [
+        "Т4Л"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://tenet.ru/models/t7/"
+    },
+    {
+      "model_id": "tenet-t7",
+      "brand_id": "tenet",
+      "name": "T7",
+      "aliases": [
+        "Т7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://tenet.ru/models/t7/"
+    },
+    {
+      "model_id": "tenet-t8",
+      "brand_id": "tenet",
+      "name": "T8",
+      "aliases": [
+        "Т8"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://tenet.ru/models/t7/"
+    },
+    {
+      "model_id": "changan-cs75-plus",
+      "brand_id": "changan",
+      "name": "CS75 Plus",
+      "aliases": [
+        "CS75PLUS",
+        "Чанган CS75 Plus"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model"
+    },
+    {
+      "model_id": "changan-cs75-plus-new",
+      "brand_id": "changan",
+      "name": "CS75 Plus New",
+      "aliases": [
+        "CS75PLUS NEW",
+        "第四代CS75PLUS"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model"
+    },
+    {
+      "model_id": "changan-cs75-pro",
+      "brand_id": "changan",
+      "name": "CS75 Pro",
+      "aliases": [
+        "CS75PRO"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model"
+    },
+    {
+      "model_id": "changan-cs35-max",
+      "brand_id": "changan",
+      "name": "CS35 Max",
+      "aliases": [
+        "CS35MAX"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model"
+    },
+    {
+      "model_id": "changan-cs35-plus",
+      "brand_id": "changan",
+      "name": "CS35 Plus",
+      "aliases": [
+        "CS35PLUS"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model"
+    },
+    {
+      "model_id": "changan-cs95",
+      "brand_id": "changan",
+      "name": "CS95",
+      "aliases": [
+        "长安CS95"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model"
+    },
+    {
+      "model_id": "changan-alsvin",
+      "brand_id": "changan",
+      "name": "Alsvin",
+      "aliases": [
+        "悦翔",
+        "Алсвин"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model"
+    },
+    {
+      "model_id": "changan-eado-plus",
+      "brand_id": "changan",
+      "name": "Eado Plus",
+      "aliases": [
+        "逸动PLUS"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://changanauto.ru/model"
+    },
+    {
+      "model_id": "hongqi-hs3",
+      "brand_id": "hongqi",
+      "name": "HS3",
+      "aliases": [
+        "红旗HS3"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices"
+    },
+    {
+      "model_id": "hongqi-hs5",
+      "brand_id": "hongqi",
+      "name": "HS5",
+      "aliases": [
+        "红旗HS5"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices"
+    },
+    {
+      "model_id": "hongqi-hs7",
+      "brand_id": "hongqi",
+      "name": "HS7",
+      "aliases": [
+        "红旗HS7"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices"
+    },
+    {
+      "model_id": "hongqi-h5",
+      "brand_id": "hongqi",
+      "name": "H5",
+      "aliases": [
+        "红旗H5"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices"
+    },
+    {
+      "model_id": "hongqi-h6",
+      "brand_id": "hongqi",
+      "name": "H6",
+      "aliases": [
+        "红旗H6"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices"
+    },
+    {
+      "model_id": "hongqi-h9",
+      "brand_id": "hongqi",
+      "name": "H9",
+      "aliases": [
+        "红旗H9"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices"
+    },
+    {
+      "model_id": "hongqi-hq9",
+      "brand_id": "hongqi",
+      "name": "HQ9",
+      "aliases": [
+        "红旗HQ9"
+      ],
+      "body_type": "mpv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices"
+    },
+    {
+      "model_id": "hongqi-e-hs9",
+      "brand_id": "hongqi",
+      "name": "E-HS9",
+      "aliases": [
+        "红旗EHS9"
+      ],
+      "body_type": "suv",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices"
+    },
+    {
+      "model_id": "hongqi-guoya",
+      "brand_id": "hongqi",
+      "name": "Guoya",
+      "aliases": [
+        "国雅"
+      ],
+      "body_type": "sedan",
+      "active": true,
+      "year": null,
+      "catalog_status": "official_catalog",
+      "catalog_source": "https://hongqi.ru/prices"
+    }
+  ],
+  "excluded_subbrands": {
+    "changan": [
+      "UNI",
+      "AVATR",
+      "DEEPAL"
+    ]
+  },
+  "catalog_note": "中文别名仅为检索提示，不证明各市场车型完全等同。目录不表示已核验价格；子品牌单独管理。"
+}
