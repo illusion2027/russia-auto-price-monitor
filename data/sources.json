@@ -23,7 +23,7 @@
     "adapter": "haval",
     "parser_version": "1",
     "catalog_source": "https://haval.ru/purchase/catalogues/",
-    "last_success_at": "2026-10-22T06:47:38+00:00",
+    "last_success_at": "2026-10-23T06:46:51+00:00",
     "verified_models": [
       "haval-h3"
     ]
@@ -40,7 +40,7 @@
     "adapter": "tenet",
     "parser_version": "1",
     "catalog_source": "https://tenet.ru/models/t7/",
-    "last_success_at": "2026-10-22T06:47:39+00:00",
+    "last_success_at": "2026-10-23T06:46:52+00:00",
     "verified_models": [
       "tenet-t7"
     ]
