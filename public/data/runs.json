@@ -656,5 +656,40 @@
     "status": "needs_review",
     "offers_count": 0,
     "reason": "NeedsReview: Official page reachable; 11 candidate price documents; year/trim/conditions parser pending review"
+  },
+  {
+    "at": "2026-10-29T06:58:59+00:00",
+    "brand_id": "geely",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: Official page reachable; 1 candidate price documents; year/trim/conditions parser pending review"
+  },
+  {
+    "at": "2026-10-29T06:59:01+00:00",
+    "brand_id": "haval",
+    "status": "partial_success",
+    "offers_count": 1,
+    "reason": null
+  },
+  {
+    "at": "2026-10-29T06:59:02+00:00",
+    "brand_id": "tenet",
+    "status": "partial_success",
+    "offers_count": 8,
+    "reason": null
+  },
+  {
+    "at": "2026-10-29T06:59:07+00:00",
+    "brand_id": "changan",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: Official page reachable; 0 candidate price documents; year/trim/conditions parser pending review"
+  },
+  {
+    "at": "2026-10-29T06:59:08+00:00",
+    "brand_id": "hongqi",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: Official page reachable; 11 candidate price documents; year/trim/conditions parser pending review"
   }
 ]
