@@ -1,40 +1,5 @@
 [
   {
-    "at": "2026-10-20T06:45:57+00:00",
-    "brand_id": "geely",
-    "status": "needs_review",
-    "offers_count": 0,
-    "reason": "NeedsReview: Official page reachable; 1 candidate price documents; year/trim/conditions parser pending review"
-  },
-  {
-    "at": "2026-10-20T06:45:58+00:00",
-    "brand_id": "haval",
-    "status": "partial_success",
-    "offers_count": 1,
-    "reason": null
-  },
-  {
-    "at": "2026-10-20T06:46:00+00:00",
-    "brand_id": "tenet",
-    "status": "partial_success",
-    "offers_count": 8,
-    "reason": null
-  },
-  {
-    "at": "2026-10-20T06:46:06+00:00",
-    "brand_id": "changan",
-    "status": "needs_review",
-    "offers_count": 0,
-    "reason": "NeedsReview: Official page reachable; 0 candidate price documents; year/trim/conditions parser pending review"
-  },
-  {
-    "at": "2026-10-20T06:46:08+00:00",
-    "brand_id": "hongqi",
-    "status": "needs_review",
-    "offers_count": 0,
-    "reason": "NeedsReview: Official page reachable; 11 candidate price documents; year/trim/conditions parser pending review"
-  },
-  {
     "at": "2026-10-21T06:47:18+00:00",
     "brand_id": "geely",
     "status": "needs_review",
@@ -694,6 +659,41 @@
   },
   {
     "at": "2026-11-08T07:02:12+00:00",
+    "brand_id": "hongqi",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: Official page reachable; 11 candidate price documents; year/trim/conditions parser pending review"
+  },
+  {
+    "at": "2026-11-09T07:30:07+00:00",
+    "brand_id": "geely",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: Official page reachable; 1 candidate price documents; year/trim/conditions parser pending review"
+  },
+  {
+    "at": "2026-11-09T07:30:09+00:00",
+    "brand_id": "haval",
+    "status": "partial_success",
+    "offers_count": 1,
+    "reason": null
+  },
+  {
+    "at": "2026-11-09T07:30:10+00:00",
+    "brand_id": "tenet",
+    "status": "partial_success",
+    "offers_count": 8,
+    "reason": null
+  },
+  {
+    "at": "2026-11-09T07:30:14+00:00",
+    "brand_id": "changan",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: Official page reachable; 0 candidate price documents; year/trim/conditions parser pending review"
+  },
+  {
+    "at": "2026-11-09T07:30:16+00:00",
     "brand_id": "hongqi",
     "status": "needs_review",
     "offers_count": 0,
