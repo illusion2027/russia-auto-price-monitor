@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T07:30:16+00:00",
-  "built_at": "2026-11-09T07:30:18+00:00",
+  "generated_at": "2026-11-10T07:12:45+00:00",
+  "built_at": "2026-11-10T07:12:47+00:00",
   "brands": [
     {
       "brand_id": "geely",
@@ -514,13 +514,13 @@
           "valid_until": null,
           "source_url": "https://haval.ru/purchase/catalogues/",
           "source_type": "official_html",
-          "verified_at": "2026-11-09T07:30:09+00:00",
+          "verified_at": "2026-11-10T07:12:36+00:00",
           "status": "verified",
           "confidence": 0.98,
           "evidence_excerpt": "HAVAL H3 | от 2 549 000 ₽ | Цена автомобиля HAVAL H3 2026 модельного года в комплектации Оптимум, 2026 года производства с учетом выгоды 200 000 рублей по программе Лояльный трейд-ин. Выгода 200 000 рублей предусмотрена с 17.08.2026 при приобретении HAVAL H3 2026 модельного года 2026 года производства по программе Лояльный Трейд-ин (при сдаче дилеру а/м марки HAVAL или Great Wall). В трейд-ин принимаются автомобили с пробегом, находящиеся минимум 3 (три) последних месяца в собственности и эксплуатации (поставлены на учет в ГИБДД) сдающего лица или его СУПРУГИ/СУПРУГА. В качестве документов, подтверждающих срок владения сдаваемого в трейд-ин автомобиля, собственнику необходимо предоставить копию ПТС или СТС или карточку учета ТС из ГИБДД с печатью и подписью; копию свидетельства о браке если сдаваемый автомобиль принадлежал супругу / супруге. Подробности уточняйте в дилерских центрах HAVAL Pro.",
-          "evidence_sha256": "53e947c8de808b6331cfac98e640fae157e1b80416d35f3585c78e0c8d0ef293",
+          "evidence_sha256": "78d929a55a2efe5112b561c930c9c0452a45767d04a936f18ad35afab3192de7",
           "price_basis": "starting_at",
-          "last_success_at": "2026-11-09T07:30:09+00:00",
+          "last_success_at": "2026-11-10T07:12:36+00:00",
           "failure_reason": null
         },
         "max_offer": null
@@ -553,13 +553,13 @@
           "valid_until": null,
           "source_url": "https://haval.ru/purchase/catalogues/",
           "source_type": "official_html",
-          "verified_at": "2026-11-09T07:30:09+00:00",
+          "verified_at": "2026-11-10T07:12:36+00:00",
           "status": "verified",
           "confidence": 0.98,
           "evidence_excerpt": "HAVAL H3 | от 2 549 000 ₽ | Цена автомобиля HAVAL H3 2026 модельного года в комплектации Оптимум, 2026 года производства с учетом выгоды 200 000 рублей по программе Лояльный трейд-ин. Выгода 200 000 рублей предусмотрена с 17.08.2026 при приобретении HAVAL H3 2026 модельного года 2026 года производства по программе Лояльный Трейд-ин (при сдаче дилеру а/м марки HAVAL или Great Wall). В трейд-ин принимаются автомобили с пробегом, находящиеся минимум 3 (три) последних месяца в собственности и эксплуатации (поставлены на учет в ГИБДД) сдающего лица или его СУПРУГИ/СУПРУГА. В качестве документов, подтверждающих срок владения сдаваемого в трейд-ин автомобиля, собственнику необходимо предоставить копию ПТС или СТС или карточку учета ТС из ГИБДД с печатью и подписью; копию свидетельства о браке если сдаваемый автомобиль принадлежал супругу / супруге. Подробности уточняйте в дилерских центрах HAVAL Pro.",
-          "evidence_sha256": "53e947c8de808b6331cfac98e640fae157e1b80416d35f3585c78e0c8d0ef293",
+          "evidence_sha256": "78d929a55a2efe5112b561c930c9c0452a45767d04a936f18ad35afab3192de7",
           "price_basis": "starting_at",
-          "last_success_at": "2026-11-09T07:30:09+00:00",
+          "last_success_at": "2026-11-10T07:12:36+00:00",
           "failure_reason": null
         }
       ]
@@ -722,120 +722,20 @@
       "year": null,
       "catalog_status": "official_catalog",
       "catalog_source": "https://tenet.ru/models/t7/",
-      "status": "verified",
+      "status": "stale",
       "promo": {
-        "min_rub": 2625000,
-        "max_rub": 3060000,
+        "min_rub": null,
+        "max_rub": null,
         "coverage": "observed_trims_only",
-        "min_offer": {
-          "brand_id": "tenet",
-          "model_id": "tenet-t7",
-          "model_year": null,
-          "production_year": 2026,
-          "trim": "Active 2WD",
-          "price_kind": "official_promotional_reference",
-          "price_rub": 2625000,
-          "raw_price": "2 625 000",
-          "conditions": "Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
-          "condition_labels": [
-            "置换 / Trade-in"
-          ],
-          "region": "俄罗斯；以官方经销商确认为准",
-          "effective_date": "2026-10-08",
-          "valid_until": null,
-          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
-          "source_type": "official_pdf",
-          "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
-          "confidence": 0.98,
-          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 625 000 | Рекомендуемая цена перепродажи: 2 805 000 | Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
-          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
-          "price_basis": "exact_trim",
-          "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
-        },
-        "max_offer": {
-          "brand_id": "tenet",
-          "model_id": "tenet-t7",
-          "model_year": null,
-          "production_year": 2026,
-          "trim": "Prime 4WD",
-          "price_kind": "official_promotional_reference",
-          "price_rub": 3060000,
-          "raw_price": "3 060 000",
-          "conditions": "Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
-          "condition_labels": [
-            "置换 / Trade-in"
-          ],
-          "region": "俄罗斯；以官方经销商确认为准",
-          "effective_date": "2026-10-08",
-          "valid_until": null,
-          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
-          "source_type": "official_pdf",
-          "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
-          "confidence": 0.98,
-          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 4WD | Максимальная цена перепродажи с учетом всех выгод: 3 060 000 | Рекомендуемая цена перепродажи: 3 210 000 | Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
-          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
-          "price_basis": "exact_trim",
-          "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
-        }
+        "min_offer": null,
+        "max_offer": null
       },
       "msrp": {
-        "min_rub": 2805000,
-        "max_rub": 3210000,
+        "min_rub": null,
+        "max_rub": null,
         "coverage": "observed_trims_only",
-        "min_offer": {
-          "brand_id": "tenet",
-          "model_id": "tenet-t7",
-          "model_year": null,
-          "production_year": 2026,
-          "trim": "Active 2WD",
-          "price_kind": "msrp",
-          "price_rub": 2805000,
-          "raw_price": "2 805 000",
-          "conditions": "Рекомендуемая цена перепродажи; цена актуальна на 08.10.2026. Не является публичной офертой. Подробности у официальных дилеров TENET.",
-          "condition_labels": [],
-          "region": "俄罗斯；以官方经销商确认为准",
-          "effective_date": "2026-10-08",
-          "valid_until": null,
-          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
-          "source_type": "official_pdf",
-          "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
-          "confidence": 0.98,
-          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 625 000 | Рекомендуемая цена перепродажи: 2 805 000 | Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
-          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
-          "price_basis": "exact_trim",
-          "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
-        },
-        "max_offer": {
-          "brand_id": "tenet",
-          "model_id": "tenet-t7",
-          "model_year": null,
-          "production_year": 2026,
-          "trim": "Prime 4WD",
-          "price_kind": "msrp",
-          "price_rub": 3210000,
-          "raw_price": "3 210 000",
-          "conditions": "Рекомендуемая цена перепродажи; цена актуальна на 08.10.2026. Не является публичной офертой. Подробности у официальных дилеров TENET.",
-          "condition_labels": [],
-          "region": "俄罗斯；以官方经销商确认为准",
-          "effective_date": "2026-10-08",
-          "valid_until": null,
-          "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
-          "source_type": "official_pdf",
-          "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
-          "confidence": 0.98,
-          "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 4WD | Максимальная цена перепродажи с учетом всех выгод: 3 060 000 | Рекомендуемая цена перепродажи: 3 210 000 | Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
-          "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
-          "price_basis": "exact_trim",
-          "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
-        }
+        "min_offer": null,
+        "max_offer": null
       },
       "offers": [
         {
@@ -857,13 +757,13 @@
           "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
           "source_type": "official_pdf",
           "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
+          "status": "stale",
           "confidence": 0.98,
           "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 625 000 | Рекомендуемая цена перепродажи: 2 805 000 | Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
           "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
           "price_basis": "exact_trim",
           "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
+          "failure_reason": "NeedsReview: T7 website/PDF year or price conflict; human review required"
         },
         {
           "brand_id": "tenet",
@@ -882,13 +782,13 @@
           "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
           "source_type": "official_pdf",
           "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
+          "status": "stale",
           "confidence": 0.98,
           "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 625 000 | Рекомендуемая цена перепродажи: 2 805 000 | Выгода по трейд-ин: 180 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
           "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
           "price_basis": "exact_trim",
           "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
+          "failure_reason": "NeedsReview: T7 website/PDF year or price conflict; human review required"
         },
         {
           "brand_id": "tenet",
@@ -909,13 +809,13 @@
           "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
           "source_type": "official_pdf",
           "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
+          "status": "stale",
           "confidence": 0.98,
           "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 805 000 | Рекомендуемая цена перепродажи: 3 005 000 | Выгода по трейд-ин: 200 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
           "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
           "price_basis": "exact_trim",
           "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
+          "failure_reason": "NeedsReview: T7 website/PDF year or price conflict; human review required"
         },
         {
           "brand_id": "tenet",
@@ -934,13 +834,13 @@
           "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
           "source_type": "official_pdf",
           "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
+          "status": "stale",
           "confidence": 0.98,
           "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 2WD | Максимальная цена перепродажи с учетом всех выгод: 2 805 000 | Рекомендуемая цена перепродажи: 3 005 000 | Выгода по трейд-ин: 200 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
           "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
           "price_basis": "exact_trim",
           "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
+          "failure_reason": "NeedsReview: T7 website/PDF year or price conflict; human review required"
         },
         {
           "brand_id": "tenet",
@@ -961,13 +861,13 @@
           "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
           "source_type": "official_pdf",
           "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
+          "status": "stale",
           "confidence": 0.98,
           "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 4WD | Максимальная цена перепродажи с учетом всех выгод: 2 880 000 | Рекомендуемая цена перепродажи: 3 010 000 | Выгода по трейд-ин: 130 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
           "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
           "price_basis": "exact_trim",
           "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
+          "failure_reason": "NeedsReview: T7 website/PDF year or price conflict; human review required"
         },
         {
           "brand_id": "tenet",
@@ -986,13 +886,13 @@
           "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
           "source_type": "official_pdf",
           "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
+          "status": "stale",
           "confidence": 0.98,
           "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Active 4WD | Максимальная цена перепродажи с учетом всех выгод: 2 880 000 | Рекомендуемая цена перепродажи: 3 010 000 | Выгода по трейд-ин: 130 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
           "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
           "price_basis": "exact_trim",
           "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
+          "failure_reason": "NeedsReview: T7 website/PDF year or price conflict; human review required"
         },
         {
           "brand_id": "tenet",
@@ -1013,13 +913,13 @@
           "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
           "source_type": "official_pdf",
           "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
+          "status": "stale",
           "confidence": 0.98,
           "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 4WD | Максимальная цена перепродажи с учетом всех выгод: 3 060 000 | Рекомендуемая цена перепродажи: 3 210 000 | Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
           "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
           "price_basis": "exact_trim",
           "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
+          "failure_reason": "NeedsReview: T7 website/PDF year or price conflict; human review required"
         },
         {
           "brand_id": "tenet",
@@ -1038,13 +938,13 @@
           "source_url": "https://1.cdn.perxis.ru/originals/db7i1l4s5adg00dgqam0/original",
           "source_type": "official_pdf",
           "verified_at": "2026-11-09T07:30:10+00:00",
-          "status": "verified",
+          "status": "stale",
           "confidence": 0.98,
           "evidence_excerpt": "TENET T7 | 2026 ГОД ВЫПУСКА | Prime 4WD | Максимальная цена перепродажи с учетом всех выгод: 3 060 000 | Рекомендуемая цена перепродажи: 3 210 000 | Выгода по трейд-ин: 150 000 руб. *Максимальная цена перепродажи с учетом маркетинговых акций. Не является публичной офертой. Цена актуальна на 08.10.2026г. Подробности уточняйте у официальных дилеров TENET, список которых расположен на сайте www.tenet.ru ** Дополнительная выгода при сдаче в трейд-ин автомобилей с пробегом популярных марок. Список и подробности уточняйте у дилеров. ***",
           "evidence_sha256": "24f94467bd2c8f87a465d1c4f80995ef6b4a63b1777b23da89ee295705015220",
           "price_basis": "exact_trim",
           "last_success_at": "2026-11-09T07:30:10+00:00",
-          "failure_reason": null
+          "failure_reason": "NeedsReview: T7 website/PDF year or price conflict; human review required"
         }
       ]
     },
@@ -1588,7 +1488,7 @@
       "parser_version": "1",
       "catalog_source": "https://www.geely-motors.com/model/monjaro/",
       "last_run": {
-        "at": "2026-11-09T07:30:07+00:00",
+        "at": "2026-11-10T07:12:34+00:00",
         "brand_id": "geely",
         "status": "needs_review",
         "offers_count": 0,
@@ -1607,12 +1507,12 @@
       "adapter": "haval",
       "parser_version": "1",
       "catalog_source": "https://haval.ru/purchase/catalogues/",
-      "last_success_at": "2026-11-09T07:30:09+00:00",
+      "last_success_at": "2026-11-10T07:12:36+00:00",
       "verified_models": [
         "haval-h3"
       ],
       "last_run": {
-        "at": "2026-11-09T07:30:09+00:00",
+        "at": "2026-11-10T07:12:36+00:00",
         "brand_id": "haval",
         "status": "partial_success",
         "offers_count": 1,
@@ -1626,21 +1526,19 @@
         "tenet.ru",
         "1.cdn.perxis.ru"
       ],
-      "validation_status": "partial_verified",
-      "reason": "T7 官网配置卡与官方 PDF 逐列一致；已核验四个配置的优惠参考价和 RRP，其他车型待核验。",
+      "validation_status": "pending_validation",
+      "reason": "NeedsReview: T7 website/PDF year or price conflict; human review required",
       "adapter": "tenet",
       "parser_version": "1",
       "catalog_source": "https://tenet.ru/models/t7/",
       "last_success_at": "2026-11-09T07:30:10+00:00",
-      "verified_models": [
-        "tenet-t7"
-      ],
+      "verified_models": [],
       "last_run": {
-        "at": "2026-11-09T07:30:10+00:00",
+        "at": "2026-11-10T07:12:38+00:00",
         "brand_id": "tenet",
-        "status": "partial_success",
-        "offers_count": 8,
-        "reason": null
+        "status": "needs_review",
+        "offers_count": 0,
+        "reason": "NeedsReview: T7 website/PDF year or price conflict; human review required"
       }
     },
     {
@@ -1655,7 +1553,7 @@
       "parser_version": "1",
       "catalog_source": "https://changanauto.ru/model",
       "last_run": {
-        "at": "2026-11-09T07:30:14+00:00",
+        "at": "2026-11-10T07:12:43+00:00",
         "brand_id": "changan",
         "status": "needs_review",
         "offers_count": 0,
@@ -1676,7 +1574,7 @@
       "parser_version": "1",
       "catalog_source": "https://hongqi.ru/prices",
       "last_run": {
-        "at": "2026-11-09T07:30:16+00:00",
+        "at": "2026-11-10T07:12:45+00:00",
         "brand_id": "hongqi",
         "status": "needs_review",
         "offers_count": 0,
