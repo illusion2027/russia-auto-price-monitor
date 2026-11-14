@@ -23,7 +23,7 @@
     "adapter": "haval",
     "parser_version": "1",
     "catalog_source": "https://haval.ru/purchase/catalogues/",
-    "last_success_at": "2026-11-13T07:20:04+00:00",
+    "last_success_at": "2026-11-14T07:04:03+00:00",
     "verified_models": [
       "haval-h3"
     ]

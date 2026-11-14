@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T07:20:13+00:00",
-  "built_at": "2026-11-13T07:20:15+00:00",
+  "generated_at": "2026-11-14T07:04:12+00:00",
+  "built_at": "2026-11-14T07:04:13+00:00",
   "brands": [
     {
       "brand_id": "geely",
@@ -514,13 +514,13 @@
           "valid_until": null,
           "source_url": "https://haval.ru/purchase/catalogues/",
           "source_type": "official_html",
-          "verified_at": "2026-11-13T07:20:04+00:00",
+          "verified_at": "2026-11-14T07:04:03+00:00",
           "status": "verified",
           "confidence": 0.98,
           "evidence_excerpt": "HAVAL H3 | от 2 549 000 ₽ | Цена автомобиля HAVAL H3 2026 модельного года в комплектации Оптимум, 2026 года производства с учетом выгоды 200 000 рублей по программе Лояльный трейд-ин. Выгода 200 000 рублей предусмотрена с 17.08.2026 при приобретении HAVAL H3 2026 модельного года 2026 года производства по программе Лояльный Трейд-ин (при сдаче дилеру а/м марки HAVAL или Great Wall). В трейд-ин принимаются автомобили с пробегом, находящиеся минимум 3 (три) последних месяца в собственности и эксплуатации (поставлены на учет в ГИБДД) сдающего лица или его СУПРУГИ/СУПРУГА. В качестве документов, подтверждающих срок владения сдаваемого в трейд-ин автомобиля, собственнику необходимо предоставить копию ПТС или СТС или карточку учета ТС из ГИБДД с печатью и подписью; копию свидетельства о браке если сдаваемый автомобиль принадлежал супругу / супруге. Подробности уточняйте в дилерских центрах HAVAL Pro.",
-          "evidence_sha256": "f5f0d06be163dca9aefd37088f5246bc4ce4c4521a4b0a64abd8be545fe2bfd7",
+          "evidence_sha256": "84d876f80a70a768e5ed37d172ff34b0aac2e443ae4c358966769ee0235da28d",
           "price_basis": "starting_at",
-          "last_success_at": "2026-11-13T07:20:04+00:00",
+          "last_success_at": "2026-11-14T07:04:03+00:00",
           "failure_reason": null
         },
         "max_offer": null
@@ -553,13 +553,13 @@
           "valid_until": null,
           "source_url": "https://haval.ru/purchase/catalogues/",
           "source_type": "official_html",
-          "verified_at": "2026-11-13T07:20:04+00:00",
+          "verified_at": "2026-11-14T07:04:03+00:00",
           "status": "verified",
           "confidence": 0.98,
           "evidence_excerpt": "HAVAL H3 | от 2 549 000 ₽ | Цена автомобиля HAVAL H3 2026 модельного года в комплектации Оптимум, 2026 года производства с учетом выгоды 200 000 рублей по программе Лояльный трейд-ин. Выгода 200 000 рублей предусмотрена с 17.08.2026 при приобретении HAVAL H3 2026 модельного года 2026 года производства по программе Лояльный Трейд-ин (при сдаче дилеру а/м марки HAVAL или Great Wall). В трейд-ин принимаются автомобили с пробегом, находящиеся минимум 3 (три) последних месяца в собственности и эксплуатации (поставлены на учет в ГИБДД) сдающего лица или его СУПРУГИ/СУПРУГА. В качестве документов, подтверждающих срок владения сдаваемого в трейд-ин автомобиля, собственнику необходимо предоставить копию ПТС или СТС или карточку учета ТС из ГИБДД с печатью и подписью; копию свидетельства о браке если сдаваемый автомобиль принадлежал супругу / супруге. Подробности уточняйте в дилерских центрах HAVAL Pro.",
-          "evidence_sha256": "f5f0d06be163dca9aefd37088f5246bc4ce4c4521a4b0a64abd8be545fe2bfd7",
+          "evidence_sha256": "84d876f80a70a768e5ed37d172ff34b0aac2e443ae4c358966769ee0235da28d",
           "price_basis": "starting_at",
-          "last_success_at": "2026-11-13T07:20:04+00:00",
+          "last_success_at": "2026-11-14T07:04:03+00:00",
           "failure_reason": null
         }
       ]
@@ -1488,7 +1488,7 @@
       "parser_version": "1",
       "catalog_source": "https://www.geely-motors.com/model/monjaro/",
       "last_run": {
-        "at": "2026-11-13T07:20:02+00:00",
+        "at": "2026-11-14T07:04:01+00:00",
         "brand_id": "geely",
         "status": "needs_review",
         "offers_count": 0,
@@ -1507,12 +1507,12 @@
       "adapter": "haval",
       "parser_version": "1",
       "catalog_source": "https://haval.ru/purchase/catalogues/",
-      "last_success_at": "2026-11-13T07:20:04+00:00",
+      "last_success_at": "2026-11-14T07:04:03+00:00",
       "verified_models": [
         "haval-h3"
       ],
       "last_run": {
-        "at": "2026-11-13T07:20:04+00:00",
+        "at": "2026-11-14T07:04:03+00:00",
         "brand_id": "haval",
         "status": "partial_success",
         "offers_count": 1,
@@ -1534,7 +1534,7 @@
       "last_success_at": "2026-11-09T07:30:10+00:00",
       "verified_models": [],
       "last_run": {
-        "at": "2026-11-13T07:20:05+00:00",
+        "at": "2026-11-14T07:04:04+00:00",
         "brand_id": "tenet",
         "status": "needs_review",
         "offers_count": 0,
@@ -1553,7 +1553,7 @@
       "parser_version": "1",
       "catalog_source": "https://changanauto.ru/model",
       "last_run": {
-        "at": "2026-11-13T07:20:11+00:00",
+        "at": "2026-11-14T07:04:10+00:00",
         "brand_id": "changan",
         "status": "needs_review",
         "offers_count": 0,
@@ -1574,7 +1574,7 @@
       "parser_version": "1",
       "catalog_source": "https://hongqi.ru/prices",
       "last_run": {
-        "at": "2026-11-13T07:20:13+00:00",
+        "at": "2026-11-14T07:04:12+00:00",
         "brand_id": "hongqi",
         "status": "needs_review",
         "offers_count": 0,
