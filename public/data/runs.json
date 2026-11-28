@@ -1,40 +1,5 @@
 [
   {
-    "at": "2026-11-08T07:02:02+00:00",
-    "brand_id": "geely",
-    "status": "needs_review",
-    "offers_count": 0,
-    "reason": "NeedsReview: Official page reachable; 1 candidate price documents; year/trim/conditions parser pending review"
-  },
-  {
-    "at": "2026-11-08T07:02:03+00:00",
-    "brand_id": "haval",
-    "status": "partial_success",
-    "offers_count": 1,
-    "reason": null
-  },
-  {
-    "at": "2026-11-08T07:02:05+00:00",
-    "brand_id": "tenet",
-    "status": "partial_success",
-    "offers_count": 8,
-    "reason": null
-  },
-  {
-    "at": "2026-11-08T07:02:10+00:00",
-    "brand_id": "changan",
-    "status": "needs_review",
-    "offers_count": 0,
-    "reason": "NeedsReview: Official page reachable; 0 candidate price documents; year/trim/conditions parser pending review"
-  },
-  {
-    "at": "2026-11-08T07:02:12+00:00",
-    "brand_id": "hongqi",
-    "status": "needs_review",
-    "offers_count": 0,
-    "reason": "NeedsReview: Official page reachable; 11 candidate price documents; year/trim/conditions parser pending review"
-  },
-  {
     "at": "2026-11-09T07:30:07+00:00",
     "brand_id": "geely",
     "status": "needs_review",
@@ -694,6 +659,41 @@
   },
   {
     "at": "2026-11-27T16:34:35+00:00",
+    "brand_id": "hongqi",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: Official page reachable; 11 candidate price documents; year/trim/conditions parser pending review"
+  },
+  {
+    "at": "2026-11-28T15:26:26+00:00",
+    "brand_id": "geely",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: Official page reachable; 1 candidate price documents; year/trim/conditions parser pending review"
+  },
+  {
+    "at": "2026-11-28T15:26:28+00:00",
+    "brand_id": "haval",
+    "status": "partial_success",
+    "offers_count": 1,
+    "reason": null
+  },
+  {
+    "at": "2026-11-28T15:26:29+00:00",
+    "brand_id": "tenet",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: T7 RRP minus stated trade-in benefit does not equal promotion"
+  },
+  {
+    "at": "2026-11-28T15:26:53+00:00",
+    "brand_id": "changan",
+    "status": "needs_review",
+    "offers_count": 0,
+    "reason": "NeedsReview: Official page reachable; 0 candidate price documents; year/trim/conditions parser pending review"
+  },
+  {
+    "at": "2026-11-28T15:26:55+00:00",
     "brand_id": "hongqi",
     "status": "needs_review",
     "offers_count": 0,
